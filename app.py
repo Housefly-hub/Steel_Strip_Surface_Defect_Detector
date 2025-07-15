@@ -36,7 +36,7 @@ st.markdown('<div class="title">🧲 Steel Surface Defect Detector</div>', unsaf
 st.markdown('<div class="subheader">Upload images of hot steel strip to identify surface defects</div>', unsafe_allow_html=True)
 
 # File uploader
-uploaded_file = st.file_uploader("📤 Upload an image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("📤 Upload an image", type=["jpg", "jpeg", "png", "bmp"])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
