@@ -24,12 +24,41 @@ def preprocess_image(image, target_size=(224, 224)):
 st.set_page_config(page_title="Steel Defect Detector", page_icon="🧲", layout="centered")
 
 # Custom CSS for styling
+# Custom CSS for metallic background
 st.markdown("""
     <style>
-    .title {text-align: center; font-size: 36px; font-weight: bold; color: #ef4444;}
-    .subheader {text-align: center; font-size: 18px; color: #6b7280;}
+    body {
+        background-color: #1f1f1f;
+        background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .stApp {
+        background-color: rgba(30, 30, 30, 0.9);
+        color: #e5e5e5;
+    }
+    .title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: #d1d5db;
+        text-shadow: 1px 1px 2px #999;
+    }
+    .subheader {
+        text-align: center;
+        font-size: 18px;
+        color: #a0aec0;
+    }
+    .block-container {
+        padding: 2rem;
+        border-radius: 12px;
+        background-color: rgba(45, 45, 45, 0.85);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
     </style>
 """, unsafe_allow_html=True)
+
 
 # Title and subtitle
 st.markdown('<div class="title">🧲 Steel Surface Defect Detector</div>', unsafe_allow_html=True)
