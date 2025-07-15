@@ -6,7 +6,7 @@ import numpy as np
 # Load the trained model
 @st.cache_resource
 def load_defect_model():
-    return load_model("model/steel_defect_model.h5")
+    return load_model("model/keras_model.h5")
 
 model = load_defect_model()
 
