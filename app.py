@@ -66,4 +66,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("Made with ❤️ by Deepak Yadav | Streamlit AI App", unsafe_allow_html=True)
+st.markdown("Made with ❤️ by Students@GEC,Rajkot| Streamlit AI App", unsafe_allow_html=True)
