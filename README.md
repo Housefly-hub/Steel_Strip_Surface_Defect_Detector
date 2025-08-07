@@ -23,13 +23,14 @@ Manual inspection of steel surfaces is time-consuming and error-prone. This syst
 ---
 
 ## 📁 Project Structure
-
+```
 Steel_Strip_Surface_Defect_Detector/
 ├── model/ # Trained ML model(s) and saved weights
 ├── sample_images/ # Sample images of hot-rolled steel strips
 ├── app.py # Main application for running defect detection
 ├── requirements.txt # List of dependencies
 └── README.md # Project documentation
+```
 
 ---
 
@@ -77,7 +78,7 @@ The dataset used in this project was sourced from Kaggle:
 Master of Science in Industrial Engineering,  
 The University of Arizona, Arizona, United States
 
-📁 [Metal Surface Defects Dataset on Kaggle](https://www.kaggle.com/datasets/fantacher/metal-surface-defects)
+📁 [Metal Surface Defects Dataset on Kaggle](https://www.kaggle.com/datasets/fantacher/neu-metal-surface-defects-data)
 
 All image data used for model training and testing in this project was obtained from the above Kaggle repository. Full credit goes to Md Fantacher Islam for creating and sharing the dataset.
 
